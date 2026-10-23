@@ -27,10 +27,14 @@ Original EDM / phonk / trance / eurodance productions built in **LMMS 1.2.2**, w
 
 ## Reproduce
 
+From the repository root, the tracked entry points are:
+
 ```bash
-python scripts/render_custom.py     # render the custom sample library
-python scripts/render_all.py        # build + render all LMMS projects
-blender -b -P blender/scripts/build_music_artwork.py -- all <outdir>
+python pipeline/render_custom.py
+python pipeline/render_all.py
+blender -b -P pipeline/blender_designs.py -- all <outdir>
 ```
 
-See `INDEX.md` in the release folder for the full track list and production notes.
+These commands correct the entry-point paths in this README, but the production pipeline is not yet portable from a clean checkout. `pipeline/synth.py`, `pipeline/build_songs.py` and `pipeline/render_all.py` still use the workstation-specific root `C:\\Users\\Thinkbook\\OneDrive\\Celine`. See [issue #1](https://github.com/aidenmore/celine-music/issues/1) for the remaining path/configuration work before attempting a full regeneration.
+
+The full track list and production notes are in the root `INDEX.md`.
