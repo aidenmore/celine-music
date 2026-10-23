@@ -1,0 +1,163 @@
+[
+  {
+    "title": "01 Neon Drift",
+    "ok": true,
+    "seconds": 127.6,
+    "mp3_bytes": 5107504,
+    "note": "2ch 44100Hz 39 tracks"
+  },
+  {
+    "title": "02 Glitch District",
+    "ok": true,
+    "seconds": 125.6,
+    "mp3_bytes": 5027047,
+    "note": "2ch 44100Hz 37 tracks"
+  },
+  {
+    "title": "03 Phonk Pressure",
+    "ok": true,
+    "seconds": 114.9,
+    "mp3_bytes": 4596549,
+    "note": "2ch 44100Hz 20 tracks"
+  },
+  {
+    "title": "04 Euphoria Engine",
+    "ok": true,
+    "seconds": 114.9,
+    "mp3_bytes": 4596549,
+    "note": "2ch 44100Hz 41 tracks"
+  },
+  {
+    "title": "05 Eurodreams",
+    "ok": true,
+    "seconds": 125.6,
+    "mp3_bytes": 5027047,
+    "note": "2ch 44100Hz 45 tracks"
+  },
+  {
+    "title": "06 Solar Flare",
+    "ok": true,
+    "seconds": 107.2,
+    "mp3_bytes": 4290394,
+    "note": "2ch 44100Hz 33 tracks"
+  },
+  {
+    "title": "07 Deep Current",
+    "ok": true,
+    "seconds": 131.8,
+    "mp3_bytes": 5274688,
+    "note": "2ch 44100Hz 33 tracks"
+  },
+  {
+    "title": "08 Chrome Runner",
+    "ok": true,
+    "seconds": 125.6,
+    "mp3_bytes": 5027047,
+    "note": "2ch 44100Hz 30 tracks"
+  },
+  {
+    "title": "09 Neon Circuit",
+    "ok": true,
+    "seconds": 121.8,
+    "mp3_bytes": 4875537,
+    "note": "2ch 44100Hz 35 tracks"
+  },
+  {
+    "title": "10 Velvet Machine",
+    "ok": true,
+    "seconds": 129.7,
+    "mp3_bytes": 5190051,
+    "note": "2ch 44100Hz 32 tracks"
+  },
+  {
+    "title": "11 Pressure Drop",
+    "ok": true,
+    "seconds": 70.3,
+    "mp3_bytes": 2816043,
+    "note": "2ch 44100Hz 32 tracks"
+  },
+  {
+    "title": "12 Moonlit Garage",
+    "ok": true,
+    "seconds": 121.8,
+    "mp3_bytes": 4875537,
+    "note": "2ch 44100Hz 33 tracks"
+  },
+  {
+    "title": "13 Slow Burn",
+    "ok": true,
+    "seconds": 148.9,
+    "mp3_bytes": 5958051,
+    "note": "2ch 44100Hz 34 tracks"
+  },
+  {
+    "title": "14 Afterhours",
+    "ok": true,
+    "seconds": 107.2,
+    "mp3_bytes": 4290394,
+    "note": "2ch 44100Hz 33 tracks"
+  },
+  {
+    "title": "15 Heaven's Gate",
+    "ok": true,
+    "seconds": 116.5,
+    "mp3_bytes": 4663422,
+    "note": "2ch 44100Hz 32 tracks"
+  },
+  {
+    "title": "16 Acid Rain",
+    "ok": true,
+    "seconds": 119.1,
+    "mp3_bytes": 4766867,
+    "note": "2ch 44100Hz 33 tracks"
+  },
+  {
+    "title": "17 Goldrush",
+    "ok": true,
+    "seconds": 129.7,
+    "mp3_bytes": 5190051,
+    "note": "2ch 44100Hz 32 tracks"
+  },
+  {
+    "title": "18 Midnight Runner",
+    "ok": true,
+    "seconds": 131.8,
+    "mp3_bytes": 5274688,
+    "note": "2ch 44100Hz 34 tracks"
+  },
+  {
+    "title": "19 Concrete Jungle",
+    "ok": true,
+    "seconds": 71.2,
+    "mp3_bytes": 2849479,
+    "note": "2ch 44100Hz 31 tracks"
+  },
+  {
+    "title": "20 Starlight",
+    "ok": true,
+    "seconds": 125.6,
+    "mp3_bytes": 5027047,
+    "note": "2ch 44100Hz 31 tracks"
+  },
+  {
+    "note": "sunburnt/sunburnt-mix-a.mp3 - 128 BPM UK garage festival house, breathy female lead",
+    "seconds": 128.52,
+    "mp3_bytes": 4114587,
+    "title": "Sunburnt (Mix A)",
+    "ok": true
+  },
+  {
+    "note": "sunburnt/sunburnt-mix-b.mp3 - 126 BPM sped-up nightcore vocal",
+    "seconds": 111.56,
+    "mp3_bytes": 3572076,
+    "title": "Sunburnt (Mix B)",
+    "ok": true
+  },
+  {
+    "note": "sunburnt/sunburnt-mix-c.mp3 - 100 BPM male/female duet",
+    "seconds": 101.94,
+    "mp3_bytes": 3264458,
+    "title": "Sunburnt (Mix C)",
+    "ok": true
+  }
+]
