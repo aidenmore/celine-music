@@ -7,7 +7,7 @@ import shutil
 import subprocess
 import sys
 
-LMMS = r"C:\Program Files\LMMS\lmms.exe"
+LMMS = os.environ.get("CELINE_LMMS_BIN") or shutil.which("lmms") or r"C:\Program Files\LMMS\lmms.exe"
 def _find_ffmpeg() -> str:
     """Locate ffmpeg: PATH first, then the winget package folder."""
     found = shutil.which("ffmpeg")
@@ -25,7 +25,7 @@ def _find_ffmpeg() -> str:
     return "ffmpeg"
 
 
-FFMPEG = _find_ffmpeg()
+FFMPEG = os.environ.get("CELINE_FFMPEG_BIN") or _find_ffmpeg()
 
 
 def render_project(project_path: str, out_path: str, fmt: str = "wav",

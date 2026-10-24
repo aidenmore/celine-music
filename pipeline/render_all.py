@@ -18,7 +18,7 @@ from lmms_render import render_project, to_mp3
 import build_songs as B
 import gen_songs as G
 
-ROOT = r"C:\Users\Thinkbook\OneDrive\Celine"
+from config_paths import ROOT
 PROJ = os.path.join(ROOT, "projects")
 WAV = os.path.join(ROOT, "renders")
 SONGS = os.path.join(ROOT, "songs")

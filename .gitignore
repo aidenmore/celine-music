@@ -1,0 +1,8 @@
+# Audio workspace generated from sample sources and external render tools.
+/samples/
+/projects/
+/renders/
+/songs/
+/logs/
+__pycache__/
+*.py[cod]
