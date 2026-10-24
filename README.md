@@ -35,6 +35,8 @@ python pipeline/render_all.py
 blender -b -P pipeline/blender_designs.py -- all <outdir>
 ```
 
-These commands correct the entry-point paths in this README, but the production pipeline is not yet portable from a clean checkout. `pipeline/synth.py`, `pipeline/build_songs.py` and `pipeline/render_all.py` still use the workstation-specific root `C:\\Users\\Thinkbook\\OneDrive\\Celine`. See [issue #1](https://github.com/aidenmore/celine-music/issues/1) for the remaining path/configuration work before attempting a full regeneration.
+The default workspace is the repository checkout. Set `CELINE_ROOT` to a writable folder to keep generated samples, song projects and audio outside it. All five production scripts use that setting. Set `CELINE_LMMS_BIN` and `CELINE_LMMS_PRESETS` when LMMS is installed outside the detected paths, and `CELINE_FFMPEG_BIN` when FFmpeg is not on PATH.
+
+The source repository contains neither the sample manifests nor the original third-party sample library. From the repository root, regenerate assets with `python pipeline/render_custom.py`, `python pipeline/download_samples.py`, and `python pipeline/lib_samples.py` before running `python pipeline/render_all.py`. These steps require the Python audio dependencies, LMMS, FFmpeg and access to sample sources. Run `python -m unittest discover -s tests -v` for the dependency-free configuration preflight. Full LMMS and Blender rendering still needs an external machine run. Track remaining gaps in [issue #1](https://github.com/aidenmore/celine-music/issues/1).
 
 The full track list and production notes are in the root `INDEX.md`.
