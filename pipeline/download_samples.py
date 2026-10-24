@@ -6,7 +6,8 @@ import urllib.parse
 import urllib.request
 import zipfile
 
-OUT = r"C:\Users\Thinkbook\OneDrive\Celine\samples"
+from config_paths import ROOT
+OUT = os.path.join(ROOT, "samples")
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 # (item_id, remote_filename, local_subdir)
