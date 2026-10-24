@@ -30,10 +30,10 @@ from songkit import (track_sample, track_kicker, track_preset, track_zyn, pat,
 from lmms_render import render_project, to_mp3
 import presets as P
 
-ROOT = r"C:\Users\Thinkbook\OneDrive\Celine"
-CUSTOM = json.load(open(os.path.join(ROOT, "samples", "custom", "manifest.json"),
+from config_paths import ROOT, sample_manifest
+CUSTOM = json.load(open(sample_manifest("custom"),
                         encoding="utf-8"))
-LIB = json.load(open(os.path.join(ROOT, "samples", "library", "manifest.json"),
+LIB = json.load(open(sample_manifest("library"),
                      encoding="utf-8"))
 CATALOG = P.catalog()
 
