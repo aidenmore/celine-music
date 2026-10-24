@@ -13,7 +13,8 @@ import os
 import numpy as np
 
 SR = 44100
-OUT = r"C:\Users\Thinkbook\OneDrive\Celine\samples\custom"
+from config_paths import ROOT
+OUT = os.path.join(ROOT, "samples", "custom")
 
 
 # --------------------------------------------------------------- utilities --
