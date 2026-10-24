@@ -9,7 +9,14 @@ import io
 import os
 import xml.etree.ElementTree as ET
 
-PRESETS_ROOT = r"C:\Program Files\LMMS\data\presets"
+PRESETS_ROOT = os.environ.get("CELINE_LMMS_PRESETS") or next(
+    (root for root in (r"C:\Program Files\LMMS\data\presets",
+                       "/usr/share/lmms/presets",
+                       "/usr/local/share/lmms/presets",
+                       "/Applications/LMMS.app/Contents/Resources/presets")
+     if os.path.isdir(root)),
+    r"C:\Program Files\LMMS\data\presets",
+)
 
 # Instruments whose presets are plain XML (.xpf)
 XML_PRESET_DIRS = [
