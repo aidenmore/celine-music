@@ -8,13 +8,10 @@ import shutil
 import subprocess
 import sys
 
-ROOT = r"C:\Users\Thinkbook\OneDrive\Celine"
+from config_paths import ROOT
 SRC = os.path.join(ROOT, "samples", "_unpacked")
 LIB = os.path.join(ROOT, "samples", "library")
-FFMPEG = shutil.which("ffmpeg") or (
-    "C:\\Users\\Thinkbook\\AppData\\Local\\Microsoft\\WinGet\\Packages\\"
-    "Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\"
-    "ffmpeg-9.0.1-full_build\\bin\\ffmpeg.exe")
+FFMPEG = os.environ.get("CELINE_FFMPEG_BIN") or shutil.which("ffmpeg") or "ffmpeg"
 
 AUDIO_EXT = (".wav", ".flac", ".mp3", ".ogg", ".aif", ".aiff")
 
